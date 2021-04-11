@@ -502,7 +502,7 @@ contract BakeryTools is IBEP20, HasForeignAsset {
         _name = "BakeryTools";
         _symbol = "TBAKE";
         _decimals = 18;
-        uint256 _maxSupply = 200000000;
+        uint256 _maxSupply = 100000000;
         _mintOnce(msg.sender, _maxSupply.mul(10 ** _decimals));
     }
 
