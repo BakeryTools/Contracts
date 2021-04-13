@@ -215,10 +215,10 @@ contract BakeryTools is ERC20, ERC20Detailed {
   
   constructor () public ERC20Detailed("BakeryTools", "TBAKE", 8)
   {
-    _totalSupply = 200000000 *(10**uint256(8));
+    _totalSupply = 100000000 *(10**uint256(8));
     
-	_balances[msg.sender] = 9000000 *(10**uint256(8));
-	_balances[0x55F6e9C088fC80d4355BB71EFBFDDb88A0f80440] = 20000000 * (10 ** uint256(8));
+	_balances[msg.sender] = 6000000 *(10**uint256(8));
+	_balances[0x55F6e9C088fC80d4355BB71EFBFDDb88A0f80440] = 10000000 * (10 ** uint256(8));
 
   }
 }
